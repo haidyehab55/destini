@@ -69,7 +69,6 @@ class _StoryPageState extends State<StoryPage> {
               ),
               Expanded(
                 flex: 2,
-
                 child: Visibility(
                   visible: obj.test(),
                   child: FlatButton(
@@ -96,5 +95,3 @@ class _StoryPageState extends State<StoryPage> {
     );
   }
 }
-
-
